@@ -10,7 +10,10 @@ function App() {
           <Dictionary />
         </main>
         <footer className="text-center">
-          <a href="/" className="external-link">
+          <a
+            href="https://github.com/Elisawirsiy/Dictionary-app"
+            className="external-link"
+          >
             Open-source code{" "}
           </a>
           by Elizabeth Wirsiy
