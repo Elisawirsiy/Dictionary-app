@@ -1,6 +1,7 @@
 .App {
   max-width: 960px;
   margin: 0 auto;
+  font-family: cursive;
 }
 body {
   background: #dddcd8;
@@ -18,4 +19,5 @@ a {
 .App footer {
   text-align: center;
   margin: 30px 0;
+  font-size: 12px;
 }
