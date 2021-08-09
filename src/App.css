@@ -1,5 +1,9 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 body {
-  background: #f9f8fe;
+  background: #dddcd8;
 }
 a {
   text-decoration: none;
@@ -8,7 +12,6 @@ a {
 }
 .App-header {
   margin: 30px 0;
-  color: black;
   display: block;
 }
 
