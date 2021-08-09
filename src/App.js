@@ -7,9 +7,9 @@ function App() {
       <div className="container">
         <h1 className="App-header">Dictionary App</h1>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="podium" />
         </main>
-        <footer className="text-center">
+        <footer>
           <a
             href="https://github.com/Elisawirsiy/Dictionary-app"
             className="external-link"

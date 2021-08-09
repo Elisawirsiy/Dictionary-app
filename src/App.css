@@ -1,11 +1,18 @@
-.App-header {
-  background-color: #fff;
-  margin: 30px auto;
-  color: black;
-  text-align: center;
+body {
+  background: #f9f8fe;
 }
-
-.external-link {
+a {
   text-decoration: none;
   font-size: 14px;
+  color: #551fdc;
+}
+.App-header {
+  margin: 30px 0;
+  color: black;
+  display: block;
+}
+
+.App footer {
+  text-align: center;
+  margin: 30px 0;
 }
