@@ -11,10 +11,24 @@
   margin: 20px 0;
 }
 
-.Dictionary input {
+/*.Dictionary input {
   width: 100%;
   padding: 10px 8px;
   border: 1px solid rgb(219, 209, 209);
   border-radius: 6px;
   color: #333;
+}*/
+
+.searchbar,
+.searchbutton {
+  padding: 10px 8px;
+  border: 1px solid rgb(219, 209, 209);
+  border-radius: 6px;
+  color: #333;
+}
+.searchbar {
+  width: 75%;
+}
+.searchbutton {
+  width: 20%;
 }

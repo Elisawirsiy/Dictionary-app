@@ -46,10 +46,12 @@ export default function Dictionary(props) {
           <h1>What word do you want to look up?</h1>
           <form onSubmit={handleSubmit}>
             <input
+              className="searchbar"
               type="search"
               placeholder="example: podium, wine, yoga..."
               onChange={handleKeywordchange}
             />
+            <input className="searchbutton ms-2" type="submit" value="Search" />
           </form>
         </section>
         <Results results={results} />

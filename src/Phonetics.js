@@ -5,7 +5,7 @@ import "./Phonetics.css";
 export default function Phonetics(props) {
   return (
     <div className="Phonetics">
-      <div className="text"> {props.phonetic.text}</div>{" "}
+      <div className="text">/{props.phonetic.text}/</div>{" "}
       <ReactAudioPlayer src={props.phonetic.audio} autoPlay controls />
     </div>
   );
